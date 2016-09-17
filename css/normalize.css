@@ -1,0 +1,58 @@
+/*scrollpanel css*/
+@charset "UTF-8";
+body {
+  font-family: "Ubuntu", "Arial", "sans";
+  font-size: 16px;
+  color: #333;
+}
+a,
+a:visited,
+a:active {
+  color: #1d77c2;
+  text-decoration: none;
+}
+a:hover,
+a:visited:hover,
+a:active:hover {
+  color: #333;
+}
+h1 {
+  display: inline-block;
+  margin: 30px;
+  padding: 4px;
+  font-size: 2em;
+}
+
+.scrollpanel{
+  float: left;
+  /*margin: 30px;*/
+  width: 200px;
+  height: 700px;
+  border: 1px solid #ccc;
+}
+.scrollpanel .sp-scrollbar {
+  width: 10px;
+  background-color: #ccc;
+  cursor: pointer;
+}
+.scrollpanel .sp-scrollbar .sp-thumb {
+  background-color: #aaa;
+  transition: height 0.2s ease-in-out;
+}
+.scrollpanel .sp-scrollbar .sp-thumb {
+  background-color: #aaa;
+  transition: height 0.2s ease-in-out;
+}
+.scrollpanel .sp-scrollbar.active .sp-thumb {
+  background-color: #999;
+}
+
+.item {
+  text-align: center;
+  min-height: 30px;
+  /*background-color: #eee;*/
+  border: 1px solid #ccc;
+  margin: 1em;
+  padding: 1em;
+}
+
