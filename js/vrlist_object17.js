@@ -4,13 +4,13 @@
     var win = window; // eslint-disable-line no-undef
     var jq = win.jQuery;
     var appendContent = true;
-    var vrlist = [ '','로비','옥상정원'];
+    var vrlist = [];
     
     function generateContent() {
         jq('.scrollpanel').each(function (idx, el) {
             for (var i = 1; i < vrlist.length; i += 1) {
                 jq(el).append('<div class="item">'
-                                +'<a target="demo" href="vr16_'
+                                +'<a target="demo" href="vr17_'
                                 +i+'.html">'
                                 +vrlist[i]
                                 +'</a>'
