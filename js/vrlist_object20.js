@@ -4,7 +4,7 @@
     var win = window; // eslint-disable-line no-undef
     var jq = win.jQuery;
     var appendContent = true;
-    var vrlist = [ '','라운지','대강의실','모의법정'];
+    var vrlist = [ '','라운지','대강의실','모의법정','201-202호'];
     
     function generateContent() {
         jq('.scrollpanel').each(function (idx, el) {
