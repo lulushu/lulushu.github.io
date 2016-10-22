@@ -4,7 +4,7 @@
     var win = window; // eslint-disable-line no-undef
     var jq = win.jQuery;
     var appendContent = true;
-    var vrlist = [ '','나노시스템 응용연구실','자료분석실'];
+    var vrlist = [ '','나노시스템 응용연구실','자료분석실','로비','실습실'];
     
     function generateContent() {
         jq('.scrollpanel').each(function (idx, el) {
